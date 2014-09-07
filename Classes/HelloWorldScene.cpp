@@ -91,12 +91,35 @@ void HelloWorld::addFood()
 	auto move = MoveTo::create(duration,
 							Point(food->getContentSize().width*3/2,
 									food->getPositionY()));
-	food->runAction(move);
+	//food->runAction(move);
+
+	auto call = CallFuncN::create(this,callfuncN_selector(HelloWorld::spriteMoveFinished));
+
+	food->runAction(Sequence::create(move,call,NULL));
+
 }
 
 void HelloWorld::gameLogic(float dt)
 {
 	this->addFood();
+}
+
+void HelloWorld::spriteMoveFinished(Node* sender)
+{
+	auto sprite = (cocos2d::Sprite *)sender;
+
+	//ハンバーガーのスプライトを取得し、親レイヤーのremoveChildの第一引数に指定して、削除
+	//第二引数をtureに設定すると削除する子で実行中のアクションやコールバックも同時に破棄される。
+	bool isCleanUp = true;
+	this->removeChild(sprite,isCleanUp);
+
+	//Visibleプロパティで非表示にすることも可能
+	//この場合描画処理は行われない
+	//sprite->setVisible(false);
+
+	//opacityで透明に
+	//こちらの場合描画処理が行われるので↑のVisibleの方を推奨
+	//sprite->setOpacity(0);
 }
 
 

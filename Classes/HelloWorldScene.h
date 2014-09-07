@@ -23,6 +23,9 @@ public:
 
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+
+    void spriteMoveFinished(Node* sender);
+
 };
 
 #endif // __HELLOWORLD_SCENE_H__
