@@ -1,0 +1,540 @@
+20:35:28 **** クリーンのみのビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release clean 
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= main.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= cocos2d.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCamera.cpp
+jni/../../Classes/HelloWorldScene.cpp:47:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCatmullRom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionEase.cpp
+1 warning generated.
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInstant.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInterval.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionManager.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionPageTurn3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTiledGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTween.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimationCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAtlasNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCClippingNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponentContainer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawingPrimitives.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlasCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontCharMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFNT.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFreeType.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLBufferedNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrabber.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabel.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelBMFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTextFormatter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenu.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenuItem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMotionStreak.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNodeGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParallaxNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleExamples.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystemQuad.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderTexture.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScene.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrame.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrameCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXObjectGroup.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXXMLParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextFieldTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTileMapAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransition.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionPageTurn.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionProgress.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTweenFunction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimate3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundle3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundleReader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMesh.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshSkin.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3DMaterial.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCObjLoader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLViewProtocol.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFileUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSAXParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCThread.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCImage.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAffineTransform.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGeometry.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCVertex.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Mat4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= MathUtil.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Quaternion.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TransformUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec3.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAutoreleasePool.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConfiguration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConsole.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCData.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDataVisitor.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDirector.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEvent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListener.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCIMEDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNS.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProfiling.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRef.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScheduler.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScriptSupport.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefault.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefaultAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCValue.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TGAlib.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ZipUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= atitc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= base64.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccCArray.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ccFPSImages.c
+[armeabi] Compile++ thumb: cocos2dx_static <= ccTypes.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUTF8.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= etc1.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= s3tc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController-android.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ObjectFactory.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBatchCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCCustomCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgram.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramState.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGroupCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCQuadCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTexture2D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccGLStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccShaders.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCArray.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSet.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCString.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDictionary.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDeprecated.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNotificationCenter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBody.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContact.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJoint.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShape.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorld.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBodyInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContactInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJointInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShapeInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorldInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ConvertUTFWrapper.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ConvertUTF.c
+[armeabi] Compile++ thumb: cocos2dx_static <= tinyxml2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ioapi.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= unzip.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= edtaa3func.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= xxhash.c
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddSimpleAudioEngine.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= ccdandroidUtils.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddandroidAndroidJavaEngine.cpp
+[armeabi] Compile thumb  : chipmunk_static <= chipmunk.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArbiter.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArray.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBB.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBBTree.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBody.c
+[armeabi] Compile thumb  : chipmunk_static <= cpCollision.c
+[armeabi] Compile thumb  : chipmunk_static <= cpHashSet.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPolyShape.c
+[armeabi] Compile thumb  : chipmunk_static <= cpShape.c
+In file included from jni/../../cocos2d/cocos/audio/android/ccdandroidUtils.cpp:26:
+In file included from jni/../../cocos2d/cocos/audio/android/../..\cocos2d.h:131:
+In file included from jni/../../cocos2d/cocos/audio/android/../../2d/CCParticleSystem.h:33:
+In file included from jni/../../cocos2d/cocos/audio/android/../..\deprecated/CCString.h:35:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\sstream:174:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\ostream:131:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\ios:216:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\__locale:21:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include\locale.h:33:
+C:/Android/android-ndk-r9d/platforms/android-9/arch-arm/usr/include\locale.h:55:1: warning: empty struct has size 0 in C, size 1 in C++ [-Wextern-c-compat]
+[armeabi] Compile thumb  : chipmunk_static <= cpSpace.c
+struct lconv { };
+^
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceComponent.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceHash.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceQuery.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceStep.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpatialIndex.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSweep1D.c
+[armeabi] Compile thumb  : chipmunk_static <= cpVect.c
+[armeabi] Compile thumb  : chipmunk_static <= cpConstraint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedRotarySpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedSpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGearJoint.c
+1 warning generated.
+[armeabi] Compile thumb  : chipmunk_static <= cpGrooveJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPinJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPivotJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRatchetJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRotaryLimitJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSimpleMotor.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSlideJoint.c
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCApplication.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCCommon.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCDevice.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCGLView.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCFileUtilsAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= javaactivity.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= DPIJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= IMEJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= JniHelper.cpp
+In file included from jni/../../cocos2d/cocos/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp:32:
+In file included from jni/../../cocos2d/cocos/platform/android/../..\deprecated/CCString.h:35:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\sstream:174:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\ostream:131:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\ios:216:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include\__locale:21:
+In file included from C:/Android/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include\locale.h:33:
+C:/Android/android-ndk-r9d/platforms/android-9/arch-arm/usr/include\locale.h:55:1: warning: empty struct has size 0 in C, size 1 in C++ [-Wextern-c-compat]
+struct lconv { };
+^
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= TouchesJni.cpp
+1 warning generated.
+[armeabi] Compile thumb  : cpufeatures <= cpu-features.c
+[armeabi] StaticLibrary  : libcocos2d.a
+[armeabi] StaticLibrary  : libcocosdenshion.a
+[armeabi] StaticLibrary  : libchipmunk.a
+[armeabi] StaticLibrary  : libcpufeatures.a
+[armeabi] StaticLibrary  : libcocos2dandroid.a
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+20:39:01 **** ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+20:39:03 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+20:39:28 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+20:39:33 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+02:00:40 **** ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+02:06:28 **** ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:13:44 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+jni/../../Classes/HelloWorldScene.cpp:54:20: error: use of undeclared identifier 'label'
+    this->addChild(label, 1);
+                   ^
+1 warning and 1 error generated.
+make.exe: *** [obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o] Error 1
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+Traceback (most recent call last):
+  File "C:/projects/MyGame/proj.android/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "C:/projects/MyGame/proj.android/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "C:/projects/MyGame/proj.android/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ C:\projects\MyGame\proj.android ] fails!
+03:14:21 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:16:32 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:19:10 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:25:09 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:26:26 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:29:06 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+03:51:53 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+04:12:44 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+jni/../../Classes/HelloWorldScene.cpp:68:20: error: static_cast from 'void (HelloWorld::*)()' to 'cocos2d::SEL_SCHEDULE' (aka 'void (cocos2d::Ref::*)(float)') is not allowed
+    this->schedule(schedule_selector(HelloWorld::gameLogic),3.0);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+jni/../../cocos2d/cocos/./base/CCRef.h:170:38: note: expanded from macro 'schedule_selector'
+#define schedule_selector(_SELECTOR) static_cast<cocos2d::SEL_SCHEDULE>(&_SELECTOR)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning and 1 error generated.
+make.exe: *** [obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o] Error 1
+make.exe: *** Waiting for unfinished jobs....
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+Traceback (most recent call last):
+  File "C:/projects/MyGame/proj.android/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "C:/projects/MyGame/proj.android/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "C:/projects/MyGame/proj.android/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ C:\projects\MyGame\proj.android ] fails!
+04:15:26 **** インクリメンタル・ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= HelloWorldScene.cpp
+jni/../../Classes/HelloWorldScene.cpp:49:45: warning: missing sentinel in function call [-Wsentinel]
+    auto menu = Menu::create(closeItem, NULL);
+                                            ^
+                                            , NULL
+jni/../../cocos2d/cocos/./2d/CCMenu.h:82:18: note: function has been explicitly marked sentinel here
+    static Menu* create(MenuItem* item, ...) CC_REQUIRES_NULL_TERMINATION;
+                 ^
+1 warning generated.
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
+19:01:16 **** ビルド of configuration Release for project proj.android ****
+python C:/projects/MyGame/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-18 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `C:/projects/MyGame/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `C:/projects/MyGame/proj.android'
+The Selected NDK toolchain version was 4.8 !
